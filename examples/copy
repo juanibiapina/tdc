@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+set -e
+set -u
+
+highlight "$1" -s seashell -O rtf --font Hack --font-size 22 | pbcopy
