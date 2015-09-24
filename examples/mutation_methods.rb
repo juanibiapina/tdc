@@ -1,5 +1,6 @@
 def process_name(user)
   user.name.downcase!
+  user.save!
 end
 
 def process_age(user)
